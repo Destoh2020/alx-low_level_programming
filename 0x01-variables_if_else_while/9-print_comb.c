@@ -6,13 +6,16 @@
  */
 int main(void)
 {
-	int d;
+	int number; 
 
-	for (d = '0'; d <= '9'; d++)
-		putchar(d);
-	for (d = 'a'; d <= 'f'; d++)
-		putchar(d);
+	for (number = 0; number <= 9; number++)
+	{
+	if (number < 9)
+	{
+		putchar(',');
+		putchar(' ');
+	}
+	}
 	putchar('\n');
 	return (0);
-
 }
