@@ -10,6 +10,6 @@ int main(void)
 
 	for (nums = 0; nums < 10; nums++)
 		printf("%i", nums);
-		putchar('\n');
+	putchar('\n');
 	return (0);
 }
