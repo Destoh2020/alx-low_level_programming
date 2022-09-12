@@ -14,11 +14,11 @@ int main(void)
 		{
 			for (num3 = num2 + 1; num3 < 10; num3++)
 			{
-				putchar(num1 % 10) + '0');
-				putchar(num2 % 10) + '0');
-				putchar(num3 % 10) + '0');
+				putchar((num1 % 10) + '0');
+				putchar((num2 % 10) + '0');
+				putchar((num3 % 10) + '0');
 
-				if (num1 == 3 && num2 == 4 && num3 ==5)
+				if (num1 == 3 && num2 == 4 && num3 == 5)
 					continue;
 
 				putchar(',');
