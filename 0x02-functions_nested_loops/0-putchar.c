@@ -1,11 +1,12 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * main - Entery point
  *
  * Return: Alway 0 (Success)
  */
-int _putchar(char c)
+int main(void)
 {
-	return (write(_putchar))
+	_putchar("_putchar");
+	_putchar('\n');
+	return (0);
 }
