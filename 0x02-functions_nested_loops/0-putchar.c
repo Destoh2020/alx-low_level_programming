@@ -1,4 +1,5 @@
-#include <unistd.h>
+#include <main.h>
+#include <stdio.h>
 /**
  * main - Entery point
  *
