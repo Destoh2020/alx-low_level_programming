@@ -6,9 +6,5 @@
  */
 int _putchar(char c)
 {
-	char c;
-	c = _putchar;
-	_putchar(c);
-	_putchar('\n');
-	return (0);
+	return (write(_putchar);
 }
