@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - causes an infite loop
- * @\\o/\n: what the loop prints after commenting the while loop
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
