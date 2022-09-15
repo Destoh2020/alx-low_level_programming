@@ -1,10 +1,13 @@
 #include <stdio.h>
 /**
- * main - cause an infite loop
+ * main - causes an infite loop
+ * the function avoids while loop since it is commented 
+ * and print the output
  *
- * @\\o/\n: what to be printed followed by a new line
+ * @\\o/\n: what the loop prints after commenting the while loop
  *
- * Return: Alway 0 (Success)
+ * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
