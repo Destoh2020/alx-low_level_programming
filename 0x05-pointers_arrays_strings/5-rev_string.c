@@ -5,7 +5,7 @@
  *
  * @s: string to reverse
  *
- * Retrun: Notihng
+ * Retrun: Nothing
  */
 
 void rev_string(char *s)
@@ -21,7 +21,7 @@ void rev_string(char *s)
 	{
 		l = *(s + len);
 		*(s + len) = *(s + i);
-		*(s + i) = 1;
+		*(s + i) = l;
 		len--;
 	}
 }
