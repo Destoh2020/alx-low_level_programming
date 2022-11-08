@@ -3,7 +3,7 @@
 /**
  * _strncpy - ciopies a string
  *
- * @dest: the string that is being copied to 
+ * @dest: the string that is being copied to
  * @src: the string that is being copied from
  * @n: the number of bytes from src
  *
@@ -12,7 +12,7 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i ;
+	int i;
 
 	i = 0;
 
