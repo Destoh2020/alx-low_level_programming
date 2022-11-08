@@ -3,7 +3,7 @@
 /**
  * reverse_array - reverses the content of an array
  *
- * @: the array
+ * @a: the array
  * @n: the number of element in array
  */
 
